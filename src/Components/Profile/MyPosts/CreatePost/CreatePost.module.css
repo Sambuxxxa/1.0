@@ -1,0 +1,51 @@
+.NewPost {
+    display: grid;
+    grid-template-areas:
+    "Text Text Text"
+    "Logo Input Button";
+    grid-template-columns: 65px 330px 100px;
+    padding: 5px;
+
+}
+
+.ProfileLogo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+    grid-area: Logo;
+}
+
+.MainInput {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 7px;
+    margin: 5px;
+    grid-area: Input;
+}
+
+.MainInput:focus {
+    outline: none;
+    border: none;
+}
+
+.Button {
+    font-size: 16px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 7px;
+    margin: 5px;
+    background-color: white;
+    grid-area: Button;
+}
+
+.Text {
+    color: #000000;
+    margin-left: 5px;
+    grid-area: Text;
+    text-shadow: 1px 1px 1px #ffffff;
+}

@@ -1,0 +1,26 @@
+.wrapper {
+    display: grid;
+    grid-template-areas:
+    "Head Head"
+    "SideBar Main";
+    margin-right: 5%;
+    margin-left: 5%;
+    grid-template-columns: 10% 90%;
+}
+
+.Head {
+    grid-area: Head;
+}
+
+.SideBar {
+    grid-area: SideBar;
+
+}
+
+.MainContent {
+    grid-area: Main;
+    background-color: rgba(255, 255, 255, 0.73);
+    border-radius: 0px 0px 15px 15px;
+    border-style: solid;
+}
+

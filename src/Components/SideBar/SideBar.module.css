@@ -1,0 +1,15 @@
+.SideBar {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 0px 15px 15px;
+    height: 350px;
+    border-style: solid;
+}
+
+.Text {
+    color: white;
+    font-size: 25px;
+    list-style-type: none;
+    padding: 5px;
+    margin-left: -30px;
+}
+

@@ -1,0 +1,35 @@
+.Post {
+    padding: 5px;
+    display: grid;
+    grid-template-areas:
+    "Logo Nick Data"
+    "Text Text Text";
+    grid-template-columns: 70px 8% 82%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.MainText {
+
+    grid-area: Text;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.ProfileLogo {
+    grid-area: Logo;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ProfileNick {
+    grid-area: Nick;
+    text-decoration: none;
+    color: black;
+}
+
+.Data {
+    grid-area: Data;
+}

@@ -7,7 +7,6 @@ function Profile() {
         return (
             <div className={m.Main}>
                 <Cap />
-                <hr className={m.Hr}/>
                 <CreatePost />
                 <hr className={m.Hr}/>
                 <MyPosts />

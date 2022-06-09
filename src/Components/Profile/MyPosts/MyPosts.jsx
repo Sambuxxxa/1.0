@@ -4,7 +4,7 @@ import m from "../Profile.module.css";
 function MyPosts() {
     return (
         <div>
-            <h1 align={'center'}>My Posts</h1>
+            <h1 align={'center'}>Мои Посты</h1>
             <Post
                 message={'lorem ipsum dolor sit amet consectetur adipiscing elit hac suscipit curae auctor netus donec ligula efficitur ultricies accumsan laoreet molestie fusce fringilla diam conubia litora duis tristique finibus congue suspendisse est tempor justo aliquam facilisi potenti nibh magna venenatis feugiat porttitor per quisque blandit maecenas phasellus vehicula mus neque interdum facilisis aliquet gravida maximus commodo class orci ut turpis sodales proin dis fermentum faucibus praesent semper platea magnis ullamcorper leo'}/>
             <hr className={m.Hr}/>
